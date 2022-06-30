@@ -16,4 +16,7 @@ module.exports = {
         // 打包生成库可以通过esm/commonjs/reqirejs的语法引入
         libraryTarget: 'umd',
     },
+    resolve: {
+        extensions: ['.ts', '...'],
+    },
 }
