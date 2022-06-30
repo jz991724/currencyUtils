@@ -5,7 +5,7 @@
  */
 import * as moment from "moment";
 
-export default class displayUtils {
+export default {
     /**
      * 在console中显示信息
      * @author 张俊

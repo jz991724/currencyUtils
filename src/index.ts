@@ -1,5 +1,5 @@
 import displayUtils from './display/index';
 
-export default {
+export default  {
     displayUtils
 }

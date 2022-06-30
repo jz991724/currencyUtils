@@ -1,6 +1,6 @@
 {
   "name": "geofly-currency-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "自定义通用工具函数库",
   "main": "dist/utils.js",
   "scripts": {
