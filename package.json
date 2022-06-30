@@ -1,5 +1,5 @@
 {
-  "name": "zhangjun-currency-utils",
+  "name": "@geofly/currency-utils",
   "version": "1.0.0",
   "description": "自定义通用工具函数库",
   "main": "dist/utils.js",
