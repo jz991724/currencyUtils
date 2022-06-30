@@ -1,8 +1,13 @@
 {
-  "name": "geofly-currency-utils",
-  "version": "1.0.2",
+  "name": "zhangjun-currency-utils",
+  "version": "1.0.0",
   "description": "自定义通用工具函数库",
   "main": "dist/utils.js",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/jz991724/currencyUtils.git"
+  },
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bulid:watch": "webpack --watch"
@@ -19,6 +24,7 @@
   "author": "张俊",
   "license": "ISC",
   "devDependencies": {
+    "ts-loader": "^9.3.1",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0"
   },

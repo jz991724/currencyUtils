@@ -14,7 +14,7 @@ export default {
      * @param releaseDateTime：打包发布的时间
      * @return null
      */
-    copyRightConsole(packageInfo, releaseDateTime = '未发布') {
+    copyRightConsole(packageInfo, releaseDateTime = undefined) {
         /* 样式代码 */
         const projectNameStyle = 'font-size: 20px;font-weight: 600;color: rgb(244,167,89);';
         const descriptionStyle = 'font-style: oblique;font-size:14px;color: rgb(244,167,89);font-weight: 400;';

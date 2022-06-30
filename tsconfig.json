@@ -1,0 +1,15 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    //允许编译javascript文件
+    "allowJs": true,
+    //生成相应的 .d.ts文件
+    "declaration": true,
+    //重定向输出目录
+    "outDir": "dist",
+    //生成相应的.d.ts.map文件
+    "declarationMap": true
+  }
+}

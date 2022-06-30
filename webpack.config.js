@@ -16,6 +16,18 @@ module.exports = {
         // 打包生成库可以通过esm/commonjs/reqirejs的语法引入
         libraryTarget: 'umd',
     },
+    module: {
+        rules: [
+            {
+                test: /\.tsx?$/,
+                exclude: [/node_modules/],
+                loader: "ts-loader",
+                options: {
+                    configFile: "tsconfig.json"
+                }
+            }
+        ]
+    },
     resolve: {
         extensions: ['.ts', '...'],
     },
