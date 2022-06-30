@@ -1,0 +1,25 @@
+{
+  "name": "geofly-currency-utils",
+  "version": "1.0.0",
+  "description": "自定义通用工具函数库",
+  "main": "dist/utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bulid:watch": "webpack --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "geofly",
+    "utils",
+    "currency-utils",
+    "currencyUtils"
+  ],
+  "author": "张俊",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
